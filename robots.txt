@@ -1,4 +1,16 @@
-User-agent: *
-Disallow:
+# robots.txt حرفه‌ای برای ConfigNest.github.io
+# ایجاد شده توسط ChatGPT 2026
 
+# اجازه به همه موتورهای جستجو برای ایندکس صفحات اصلی
+User-agent: *
+
+# اجازه دادن به موتورهای جستجو برای دسترسی به همه فایل‌های مفید
+Allow: /
+
+# معرفی نقشه سایت (Sitemap) برای سرعت ایندکس بهتر
 Sitemap: https://ConfigNest.github.io/sitemap.xml
+
+# تنظیمات کش گوگل برای بهبود سرعت خزیدن
+# Googlebot-specific rules
+User-agent: Googlebot
+Crawl-delay: 1
