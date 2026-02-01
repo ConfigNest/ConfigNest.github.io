@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://ConfigNest.github.io/sitemap.xml
